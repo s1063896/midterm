@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 350px;
+  height: 270px;
   margin: 0;
   transition: all 10s transform 20s;
   animation-name: back;
