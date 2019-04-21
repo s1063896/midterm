@@ -54,6 +54,7 @@ body {
 
 .santa {
   position: relative;
+  top: -15px;
   width: 210px;
   height: 330px;
 }
