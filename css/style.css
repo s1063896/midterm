@@ -76,12 +76,11 @@ body {
   position: absolute;
   background: #fff4c1;
   width: 1500px;
-  height: 600px;
-  top: 690px;
+  height: 550px;
+  top: 720px;
   left: -650px;
   border-radius: 50px;
   box-shadow: inset 0px -26px 7px rgba(0,0,0, 0.4);
-  transform: rotateX(30deg);
   z-index: 1;
 }
 
