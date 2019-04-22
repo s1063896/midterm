@@ -41,7 +41,7 @@ body {
 }
 
 .backall{
-  transform: scale(0.7);
+  transform: scale(0.5);
 }
 .floor1{
   transform: scale(0.85);
@@ -81,9 +81,9 @@ body {
 
 
 .santa {
-  transform: scale(0.7);
+  transform: scale(0.5);
   position: relative;
-  top: 35px;
+  top: 25px;
   width: 210px;
   height: 330px;
 }
@@ -780,5 +780,17 @@ body {
   top: 350px;
   left:-1050px;
   border-radius: 40% 40% 0% 0%;
+  z-index: -19;
+}
+
+.wall3{
+  position: absolute;
+  background: #adadad;
+  width: 2500px;
+  height: 200px;
+  top: 1200px;
+  left:-1150px;
+  border-radius: 0%;
+  box-shadow: inset 0px 25px 5px 0px #f0f0f0;
   z-index: -19;
 }
