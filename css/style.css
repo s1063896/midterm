@@ -20,12 +20,7 @@ body {
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
-.wrapper{
-  height: 350px;
-  weight: ;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
+
 .body: hover{
   transform: rotate(45deg);
   margin-top; 0px;
@@ -49,6 +44,7 @@ body {
 .backall{
   transform: scale(0.5);
 }
+
 .floor1{
   transform: scale(0.85);
   position: absolute;
@@ -161,8 +157,6 @@ body {
   border-radius: 0 0 200px 200px;
   overflow: hidden;
   z-index: 0;
-  
-  
 }
 
 .face i:nth-of-type(1), .face i:nth-of-type(2){
@@ -765,14 +759,22 @@ body {
   z-index: 9;
 }
 
-
+.wall{
+  position: absolute;
+  bottom: 300;
+  left: -1300px;
+  width: 2800px;
+  height: 1300px;
+  overflow: hidden;
+  z-index: -20;
+}
 .wall1{
   position: absolute;
   background: #9d9d9d;
   width: 3000px;
   height: 1000px;
   top: 250px;
-  left:-1350px;
+  left:-90px;
   border-radius: 40% 40% 0% 0%;
   box-shadow: inset 0px 25px 5px 0px #e0e0e0;
   z-index: -20;
@@ -783,8 +785,8 @@ body {
   background: #5b5b5b;
   width: 2800px;
   height: 1000px;
+  left: 1px;
   top: 350px;
-  left:-1250px;
   border-radius: 40% 40% 0% 0%;
   z-index: -19;
 }
@@ -795,7 +797,6 @@ body {
   width: 3000px;
   height: 200px;
   top: 1200px;
-  left:-1350px;
   border-radius: 0%;
   box-shadow: inset 0px 25px 5px 0px #f0f0f0;
   z-index: -19;
