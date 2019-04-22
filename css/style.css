@@ -46,47 +46,49 @@ body {
 .backall{
   transform: scale(0.5);
 }
-
+.floor{
+    z-index: -11;
+}
 .floor1{
   transform: scale(0.85);
   position: absolute;
   background: #fff4c1;
   width: 1400px;
   height: 450px;
-  top: 780px;
+  top: 730px;
   left: -600px;
   border-radius: 50%;
   box-shadow: inset 0px 0px 25px -2px rgba(0,0,0, 0.2);
-  z-index: -11;
+  z-index: 3;
 }
 .floor3{
   position: absolute;
   background: #fff;
   width: 1400px;
   height: 450px;
-  top: 790px;
+  top: 740px;
   left: -600px;
   border-radius: 50%;
   box-shadow: inset 0px -15px 15px 15px rgba(0,0,0, 0.3);
-  z-index: -12;
+  z-index: 2;
 }
 .floor2{
   position: absolute;
   background: #fff4c1;
   width: 1500px;
   height: 600px;
-  top: 735px;
+  top: 690px;
   left: -650px;
   border-radius: 50px;
   box-shadow: inset 0px -26px 7px rgba(0,0,0, 0.4);
   transform: rotateX(30deg);
-  z-index: -13;
+  z-index: 1;
 }
 
 
 
 .santa {
-  transform: scale(0.9);
+  transform: scale(0.8);
   position: relative;
   top: -10px;
   width: 210px;
@@ -770,7 +772,7 @@ body {
   width: 2300px;
   height: 1300px;
   overflow: hidden;
-  z-index: -20;
+  z-index: -11;
 }
 .wall1{
   position: absolute;
@@ -792,20 +794,8 @@ body {
   left: -190px;
   top: 450px;
   border-radius: 40% 40% 0% 0%;
-  z-index: -19;
+  z-index: 0;
 }
-
-.wall3{
-  position: absolute;
-  background: #adadad;
-  width: 3000px;
-  height: 200px;
-  top: 1200px;
-  border-radius: 0%;
-  box-shadow: inset 0px 25px 5px 0px #f0f0f0;
-  z-index: -19;
-}
-
 
 
 .p1{
@@ -1099,7 +1089,7 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
 .p8body{
   transform: scale(0.85);
@@ -1110,7 +1100,7 @@ body {
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
 
@@ -1132,7 +1122,7 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
 .p9body{
   transform: scale(0.85);
@@ -1143,7 +1133,7 @@ body {
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
 
@@ -1165,7 +1155,7 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
 .p10body{
   transform: scale(0.85);
@@ -1176,7 +1166,7 @@ body {
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
 
@@ -1198,7 +1188,7 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
 .p11body{
   transform: scale(0.85);
@@ -1209,7 +1199,7 @@ body {
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
 
@@ -1252,7 +1242,7 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
 .p12body{
   transform: scale(0.85);
@@ -1263,7 +1253,7 @@ body {
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
 
@@ -1285,7 +1275,7 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
 .p13body{
   transform: scale(0.85);
@@ -1296,6 +1286,6 @@ body {
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset -40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
