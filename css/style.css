@@ -760,6 +760,7 @@ body {
 }
 
 .wall{
+  transform: scale(1.1);
   position: absolute;
   bottom: 300;
   left: -1300px;
