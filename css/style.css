@@ -21,7 +21,7 @@ body {
   animation-iteration-count: infinite;
 }
 .wrapper{
-  transform: scale(1);
+  transform: scale(0.9);
 }
 .body: hover{
   transform: rotate(45deg);
