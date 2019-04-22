@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   /* 避免邊框誤差 */
-/*   border: solid 1px red;  */
+  border: solid 1px red; 
   /* 視覺輔助用，最後要移除 */
 }
 
@@ -13,13 +13,18 @@ body {
   justify-content: center;
   align-items: center;
   height: 270px;
+  weight：2800px;
   margin: 0;
   transition: all 10s transform 20s;
   animation-name: back;
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
-
+.wrapper{
+  height: 300px;
+  weight: 
+  overflow-x: hidden;
+}
 .body: hover{
   transform: rotate(45deg);
   margin-top; 0px;
