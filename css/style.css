@@ -21,8 +21,9 @@ body {
   animation-iteration-count: infinite;
 }
 .wrapper{
-  height: 300px;
-  weight: 
+  height: 350px;
+  weight: ;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 .body: hover{
