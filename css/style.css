@@ -53,7 +53,7 @@ body {
   background: #fff4c1;
   width: 1400px;
   height: 450px;
-  top: 680px;
+  top: 780px;
   left: -600px;
   border-radius: 50%;
   box-shadow: inset 0px 0px 25px -2px rgba(0,0,0, 0.2);
@@ -64,7 +64,7 @@ body {
   background: #fff;
   width: 1400px;
   height: 450px;
-  top: 690px;
+  top: 790px;
   left: -600px;
   border-radius: 50%;
   box-shadow: inset 0px -15px 15px 15px rgba(0,0,0, 0.3);
@@ -75,7 +75,7 @@ body {
   background: #fff4c1;
   width: 1500px;
   height: 600px;
-  top: 635px;
+  top: 735px;
   left: -650px;
   border-radius: 50px;
   box-shadow: inset 0px -26px 7px rgba(0,0,0, 0.4);
@@ -86,9 +86,9 @@ body {
 
 
 .santa {
-  transform: scale(0.7);
+  transform: scale(0.9);
   position: relative;
-  top: 10px;
+  top: -10px;
   width: 210px;
   height: 330px;
 }
@@ -765,7 +765,7 @@ body {
 .wall{
   transform: scale(1.05);
   position: absolute;
-  top: 30;
+  top: 100px;
   left: -1050px;
   width: 2300px;
   height: 1300px;
