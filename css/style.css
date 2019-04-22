@@ -21,7 +21,7 @@ body {
   animation-iteration-count: infinite;
 }
 .wrapper{
-  transform: scale(1.8);
+  transform: scale(1.5);
 }
 .body: hover{
   transform: rotate(45deg);
@@ -44,7 +44,7 @@ body {
 }
 
 .backall{
-  transform: scale(0.6);
+  transform: scale(0.5);
 }
 
 .floor1{
@@ -85,7 +85,7 @@ body {
 
 
 .santa {
-  transform: scale(0.6);
+  transform: scale(0.5);
   position: relative;
   top: 50px;
   width: 210px;
