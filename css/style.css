@@ -852,7 +852,7 @@ body {
 .p1body{
   transform: scale(0.85);
   position: absolute;
-  background: #496b36;
+  background: #6c6c6c;
   width: 200px;
   height: 500px;
   top: 230px;
@@ -870,27 +870,6 @@ body {
   height: 800px;
   overflow: hidden;
   z-index: -30;
-  transition: all 1s transform 3s;
-  animation-name: p2move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.p2: hover{
-  animation-play-state:running;
-  margin-top; 0px;
-}
-@keyframes p2move{
-  15%{
-    top: 30px;
-
-  }
-  
-  20%{
-    top: 0px;
-  }
-  25%{
-    top: 30px;
-  }
 }
 .p2head{
   transform: scale(0.85);
@@ -906,7 +885,7 @@ body {
 .p2body{
   transform: scale(0.85);
   position: absolute;
-  background: #992b9b;
+  background: #9d9d9d;
   width: 200px;
   height: 500px;
   top: 230px;
@@ -924,30 +903,6 @@ body {
   height: 800px;
   overflow: hidden;
   z-index: -31;
-  transition: all 1s transform 3s;
-  animation-name: p3move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.p3: hover{
-  animation-play-state:running;
-  margin-top; 0px;
-}
-@keyframes p3move{
-  65%{
-    top: 10px;
-
-  }
-  
-  70%{
-    top: 50px;
-  }
-  75%{
-    top: -30px;
-  }
-   80%{
-    top: 5px;
-  }
 }
 .p3head{
   transform: scale(0.85);
@@ -963,7 +918,7 @@ body {
 .p3body{
   transform: scale(0.85);
   position: absolute;
-  background: #9185ea;
+  background: #7b7b7b;
   width: 200px;
   height: 500px;
   top: 230px;
@@ -986,20 +941,20 @@ body {
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-.p4: hover{
+.p1: hover{
   animation-play-state:running;
   margin-top; 0px;
 }
 @keyframes p4move{
-  50%{
+  60%{
     top: 20px;
 
   }
   
-  55%{
-    top: 0px;
+  65%{
+    top: -10px;
   }
-  60%{
+  70%{
     top: 20px;
   }
 }
@@ -1017,7 +972,7 @@ body {
 .p4body{
   transform: scale(0.85);
   position: absolute;
-  background: #4f9d9d;
+  background: #d0d0d0;
   width: 200px;
   height: 500px;
   top: 230px;
@@ -1035,27 +990,6 @@ body {
   height: 800px;
   overflow: hidden;
   z-index: -33;
-  transition: all 1s transform 3s;
-  animation-name: p5move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.p5: hover{
-  animation-play-state:running;
-  margin-top; 0px;
-}
-@keyframes p5move{
-  85%{
-    top: 10px;
-
-  }
-  
-  90%{
-    top: -10px;
-  }
-  95%{
-    top: 10px;
-  }
 }
 .p5head{
   transform: scale(0.85);
@@ -1071,7 +1005,7 @@ body {
 .p5body{
   transform: scale(0.85);
   position: absolute;
-  background: #ea7500	;
+  background: #6c6c6c;
   width: 200px;
   height: 500px;
   top: 230px;
@@ -1084,35 +1018,11 @@ body {
 .p6{
   position: absolute;
   top: 5px;
-  left: 800px;
+  left: 750px;
   width:500px;
   height: 800px;
   overflow: hidden;
   z-index: -31;
-  transition: all 1s transform 3s;
-  animation-name: p6move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.p6: hover{
-  animation-play-state:running;
-  margin-top; 0px;
-}
-@keyframes p6move{
-  35%{
-    top: 5px;
-
-  }
-  
-  40%{
-    top: 50px;
-  }
-  45%{
-    top: -30px;
-  }
-   50%{
-    top: 5px;
-  }
 }
 .p6head{
   transform: scale(0.85);
@@ -1128,7 +1038,7 @@ body {
 .p6body{
   transform: scale(0.85);
   position: absolute;
-  background: #9185ea;
+  background: #adadad;
   width: 200px;
   height: 500px;
   top: 230px;
@@ -1146,30 +1056,6 @@ body {
   height: 800px;
   overflow: hidden;
   z-index: -31;
-  transition: all 1s transform 3s;
-  animation-name: p7move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-.p7: hover{
-  animation-play-state:running;
-  margin-top; 0px;
-}
-@keyframes p7move{
-  55%{
-    top: 0px;
-
-  }
-  
-  60%{
-    top: 20px;
-  }
-  65%{
-    top: -30px;
-  }
-   70%{
-    top: 0px;
-  }
 }
 .p7head{
   transform: scale(0.85);
@@ -1185,7 +1071,7 @@ body {
 .p7body{
   transform: scale(0.85);
   position: absolute;
-  background: #9185ea;
+  background: #adadad;
   width: 200px;
   height: 500px;
   top: 230px;
@@ -1197,35 +1083,14 @@ body {
 
 .p8{
   position: absolute;
-  top: 20px;
-  left: 600px;
+  top: 0px;
+  left: 1100px;
   width:500px;
   height: 800px;
   overflow: hidden;
-  z-index: -30;
-  transition: all 1s transform 3s;
-  animation-name: p4move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  z-index: -31;
 }
-.p8: hover{
-  animation-play-state:running;
-  margin-top; 0px;
-}
-@keyframes p4move{
-  50%{
-    top: 20px;
-
-  }
-  
-  55%{
-    top: 0px;
-  }
-  60%{
-    top: 20px;
-  }
-}
-.p4head{
+.p8head{
   transform: scale(0.85);
   position: absolute;
   background: #d8c2af;
@@ -1234,52 +1099,151 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 30px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
-.p4body{
+.p8body{
   transform: scale(0.85);
   position: absolute;
-  background: #4f9d9d;
+  background: #adadad;
   width: 200px;
   height: 500px;
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 50px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
 
-.p5{
+.p9{
+  position: absolute;
+  top: -15px;
+  left: 1300px;
+  width:500px;
+  height: 800px;
+  overflow: hidden;
+  z-index: -33;
+}
+.p9head{
+  transform: scale(0.85);
+  position: absolute;
+  background: #d8c2af;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 50px;
+  border-radius: 50%;
+  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+}
+.p9body{
+  transform: scale(0.85);
+  position: absolute;
+  background: #7b7b7b;
+  width: 200px;
+  height: 500px;
+  top: 230px;
+  left: 50px;
+  border-radius: 30% 30% 0 0;
+  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  z-index: -1;
+}
+
+.p10{
+  position: absolute;
+  top: 15px;
+  left: 1450px;
+  width:500px;
+  height: 800px;
+  overflow: hidden;
+  z-index: -33;
+}
+.p10head{
+  transform: scale(0.85);
+  position: absolute;
+  background: #d8c2af;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 50px;
+  border-radius: 50%;
+  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+}
+.p10body{
+  transform: scale(0.85);
+  position: absolute;
+  background: #adadad;
+  width: 200px;
+  height: 500px;
+  top: 230px;
+  left: 50px;
+  border-radius: 30% 30% 0 0;
+  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  z-index: -1;
+}
+
+.p11{
   position: absolute;
   top: 10px;
-  left: 450px;
+  left: 1600px;
+  width:500px;
+  height: 800px;
+  overflow: hidden;
+  z-index: -35;
+}
+.p11head{
+  transform: scale(0.85);
+  position: absolute;
+  background: #d8c2af;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 50px;
+  border-radius: 50%;
+  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+}
+.p11body{
+  transform: scale(0.85);
+  position: absolute;
+  background: 	#8e8e8e;
+  width: 200px;
+  height: 500px;
+  top: 230px;
+  left: 50px;
+  border-radius: 30% 30% 0 0;
+  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  z-index: -1;
+}
+
+.p12{
+  position: absolute;
+  top: 0px;
+  left: 1800px;
   width:500px;
   height: 800px;
   overflow: hidden;
   z-index: -33;
   transition: all 1s transform 3s;
-  animation-name: p5move;
+  animation-name: p12move;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-.p5: hover{
+.p12: hover{
   animation-play-state:running;
   margin-top; 0px;
 }
-@keyframes p5move{
-  85%{
-    top: 10px;
+@keyframes p12move{
+  30%{
+    top: 0px;
 
   }
   
-  90%{
-    top: -10px;
+  35%{
+    top: -30px;
   }
-  95%{
-    top: 10px;
+  40%{
+    top: 0px;
   }
 }
-.p5head{
+.p12head{
   transform: scale(0.85);
   position: absolute;
   background: #d8c2af;
@@ -1288,17 +1252,50 @@ body {
   top: 100px;
   left: 50px;
   border-radius: 50%;
-  box-shadow: inset 10px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
 }
-.p5body{
+.p12body{
   transform: scale(0.85);
   position: absolute;
-  background: #ea7500	;
+  background: #adadad;
   width: 200px;
   height: 500px;
   top: 230px;
   left: 50px;
   border-radius: 30% 30% 0 0;
-  box-shadow: inset 30px 0px 25px 0px rgba(0,0,0, 0.2);
+  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
+  z-index: -1;
+}
+
+.p13{
+  position: absolute;
+  top: 40px;
+  left: 1950px;
+  width:500px;
+  height: 800px;
+  overflow: hidden;
+  z-index: -33;
+}
+.p13head{
+  transform: scale(0.85);
+  position: absolute;
+  background: #d8c2af;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 50px;
+  border-radius: 50%;
+  box-shadow: inset 35px 0px 25px 0px rgba(0,0,0, 0.2);
+}
+.p13body{
+  transform: scale(0.85);
+  position: absolute;
+  background: #bebebe;
+  width: 200px;
+  height: 500px;
+  top: 230px;
+  left: 50px;
+  border-radius: 30% 30% 0 0;
+  box-shadow: inset 40px 0px 25px 0px rgba(0,0,0, 0.2);
   z-index: -1;
 }
