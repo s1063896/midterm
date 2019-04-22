@@ -78,16 +78,17 @@ body {
   top: 535px;
   left: -650px;
   border-radius: 50px;
-  box-shadow: inset 0px -25px 5px rgba(0,0,0, 0.4);
+  box-shadow: inset 0px -26px 7px rgba(0,0,0, 0.4);
+  transform: rotateX(30deg);
   z-index: -13;
 }
 
 
 
 .santa {
-  transform: scale(0.5);
+  transform: scale(0.7);
   position: relative;
-  top: 50px;
+  top: -40px;
   width: 210px;
   height: 330px;
 }
