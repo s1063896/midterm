@@ -20,7 +20,9 @@ body {
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
-
+.wrapper{
+  transform: scale(1.045);
+}
 .body: hover{
   transform: rotate(45deg);
   margin-top; 0px;
