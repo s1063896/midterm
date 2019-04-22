@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   /* 避免邊框誤差 */
-/*   border: solid 1px red; */
+/*   border: solid 1px red;  */
   /* 視覺輔助用，最後要移除 */
 }
 
@@ -40,21 +40,50 @@ body {
   }
 }
 
-.floor{
+.backall{
+  transform: scale(0.7);
+}
+.floor1{
+  transform: scale(0.85);
   position: absolute;
   background: #fff4c1;
-  width: 600px;
-  height: 200px;
-  top: 500px;
-  left:-180px;
-  border-radius: 45%;
-  box-shadow: inset 0px -25px 5px rgba(0,0,0, 0.4);
+  width: 1400px;
+  height: 450px;
+  top: 490px;
+  left: -600px;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 25px -2px rgba(0,0,0, 0.2);
   z-index: -11;
 }
+.floor3{
+  position: absolute;
+  background: #fff;
+  width: 1400px;
+  height: 450px;
+  top: 500px;
+  left: -600px;
+  border-radius: 50%;
+  box-shadow: inset 0px -15px 15px 15px rgba(0,0,0, 0.3);
+  z-index: -12;
+}
+.floor2{
+  position: absolute;
+  background: #fff4c1;
+  width: 1500px;
+  height: 600px;
+  top: 435px;
+  left: -650px;
+  border-radius: 50px;
+  box-shadow: inset 0px -25px 5px rgba(0,0,0, 0.4);
+  z-index: -13;
+}
+
+
 
 .santa {
+  transform: scale(0.7);
   position: relative;
-  top: -1px;
+  top: 35px;
   width: 210px;
   height: 330px;
 }
@@ -728,4 +757,28 @@ body {
   box-shadow: inset 5px 10px 5px -1px   rgba(0,0,0, 0.2);
   transform:rotate(-50deg);
   z-index: 9;
+}
+
+
+.wall1{
+  position: absolute;
+  background: #9d9d9d;
+  width: 2500px;
+  height: 1000px;
+  top: 250px;
+  left:-1150px;
+  border-radius: 40% 40% 0% 0%;
+  box-shadow: inset 0px 25px 5px 0px #e0e0e0;
+  z-index: -20;
+}
+
+.wall2{
+  position: absolute;
+  background: #5b5b5b;
+  width: 2300px;
+  height: 1000px;
+  top: 350px;
+  left:-1050px;
+  border-radius: 40% 40% 0% 0%;
+  z-index: -19;
 }
